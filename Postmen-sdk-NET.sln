@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postmen-sdk-NET", "Postmen-sdk-NET\Postmen-sdk-NET.csproj", "{EEEE566D-A86D-4FE1-9073-A149B33C7E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostmentTest", "PostmentTest\PostmentTest.csproj", "{E2CCFCBE-8D43-4F02-B000-A084CF7166A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEEE566D-A86D-4FE1-9073-A149B33C7E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEE566D-A86D-4FE1-9073-A149B33C7E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEE566D-A86D-4FE1-9073-A149B33C7E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEE566D-A86D-4FE1-9073-A149B33C7E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CCFCBE-8D43-4F02-B000-A084CF7166A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CCFCBE-8D43-4F02-B000-A084CF7166A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CCFCBE-8D43-4F02-B000-A084CF7166A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CCFCBE-8D43-4F02-B000-A084CF7166A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

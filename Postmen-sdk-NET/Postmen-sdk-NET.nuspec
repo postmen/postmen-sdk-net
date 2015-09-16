@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Postmen</id>
+    <version>0.0.2</version>
+    <authors>Aftership Team</authors>
+    <owners>Aftership</owners>
+    <projectUrl>https://www.postmen.com/</projectUrl>
+    <iconUrl>https://asset.postmen.com/img/postmen-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description> Postmen API, SDK </description>
+    <copyright>Copyright 2015</copyright>
+    <tags>Postmen, Create package labels, rates</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="sl3" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
