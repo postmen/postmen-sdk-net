@@ -35,7 +35,6 @@ namespace Postmen_sdk_NET
             // Just read the key from a file
             string key_sandbox = System.IO.File.ReadAllText(@"\\psf\Home\Documents\postmen_sandbox_key.txt");
 
-            Console.WriteLine(key_sandbox);
             HandlerAPI handler = new HandlerAPI(api_key: key_sandbox, endpoint: "https://sandbox-api.postmen.com");
             // Get the resource 'labels'
             JObject result = handler.get(resource: "labels");
