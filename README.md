@@ -12,7 +12,7 @@ Just find the package postmen, and add it to your project.
 git clone file
 ```
 
-Then in your solution click in add a existing project, and select the clone one.
+Then in your solution click in add a existing project, and select the clone one. Don't forget to add the reference in your project.
 
 Usage
 ----------------------------
