@@ -52,7 +52,7 @@ Import postmen module and obtain API handler object. Pass a valid API key and re
 ```
 HandlerAPI handler = new HandlerAPI(api_key: 'YOUR_API_KEY', endpoint: "https://sandbox-api.postmen.com");
 
-// Or using region (sandbox, us-west, ap-southeast)
+// Or using region (sandbox, production)
 
 HandlerAPI handler = new HandlerAPI(api_key: 'YOUR_API_KEY', region: "sandbox");
 ```
@@ -142,9 +142,9 @@ namespace Postmen_sdk_NET
 	{
 		static void Main(string[] args)
 		{
-			string production_ap_southeast_key = System.IO.File.ReadAllText(@"\\psf\Home\Documents\postmen_production_ap_southeast_key.txt");
-			string account_dhl_production = System.IO.File.ReadAllText(@"\\psf\Home\Documents\postmen_production_ap_southeast_account_key_dhl.txt"); 
-			HandlerAPI handler_production_sandbox = new HandlerAPI(api_key: production_ap_southeast_key, region: "ap-southeast");
+			string production_key = System.IO.File.ReadAllText(@"\\psf\Home\Documents\postmen_production_key.txt");
+			string account_dhl_production = System.IO.File.ReadAllText(@"\\psf\Home\Documents\postmen_production_account_key_dhl.txt"); 
+			HandlerAPI handler_production_sandbox = new HandlerAPI(api_key: production_key, region: "production");
 
 			JArray shipper_account =  new JArray();
 			JObject shipper_account_element = new JObject();
